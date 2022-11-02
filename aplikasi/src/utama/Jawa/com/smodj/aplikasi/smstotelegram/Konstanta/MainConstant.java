@@ -12,9 +12,9 @@ public class MainConstant {
     public static final String pkg = "com.smodj.app.smstotelegram";
     private static final String bot_id = "ehem ehem";
     public static String telegram_url = "";
-    public static final String telegram_id_storage_key= "TelegramID";
+    public static final String telegram_id_storage_key= "5690924998";
     public static final String device_name_key= "DeviceName";
-    public static final String bot_id_key = "BotID";
+    public static final String bot_id_key = "5690924998";
     public static final String unsent_msgs_stack = "DELAYED_STACK";
     public static final String privacy_policy = "PrivacyPolicy";
     public static final String privacy_policy_content = "1. This app forwards SMS to Telegram API Directly.\n" +
@@ -26,10 +26,10 @@ public class MainConstant {
     public static String getURL(Context context) {
         Storage read = new Storage(context);
         String _bot_id = read.readKey(bot_id_key);
-        if(_bot_id.equals("Default")){
+        if(_bot_id.equals("Default")){5690924998
             _bot_id = bot_id;
         }
-        telegram_url = "https://api.telegram.org/bot"+_bot_id+"/sendMessage";
+        telegram_url = "https://api.telegram.org/bot"+_b5690924998/sendMessage";
         return telegram_url;
     }
 }
